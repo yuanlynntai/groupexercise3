@@ -1,0 +1,21 @@
+#sticky #project-subject,
+#sticky #project-title {
+  margin: 0;
+  padding: 10px;
+  position: fixed;
+  color: #fff;
+  top: 50%;
+  text-align: center;
+  transform-origin: center left;
+  font-size: 1em;
+  font-weight: 100;
+}
+#sticky #project-subject {
+  left: 0px;
+  transform: translateX(10%) rotate(-90deg);
+}
+
+#sticky #project-title {
+  right: 10px;
+  transform: translateX(90%) rotate(90deg);
+}

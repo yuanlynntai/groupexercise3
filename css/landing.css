@@ -1,0 +1,23 @@
+/* *************************************** */
+/* landing-specific settings               */
+/* this is to display the content of       */
+/* the iframe fullscreen                   */
+/* *************************************** */
+
+.landing {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.landing iframe {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}

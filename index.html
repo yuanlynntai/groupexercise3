@@ -1,0 +1,182 @@
+<!-- 
+
+    Information Design Project
+    Exercise 3 template
+
+    BA Design Communication, Faculty of Design.
+    LASALLE College of the Arts.
+
+    Please make changes to the document below 
+    and the linked css and image files.
+    
+    Add your own content and replace the 
+    placeholder. Do read the comments below.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Virus</title>
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+	<!-- 
+            load all css files. Notice that style sheets 
+			for different sections are placed into their 
+			own css file.
+		-->
+		
+	<link rel="stylesheet" type="text/css" href="./css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="./css/landing.css" />
+	<link rel="stylesheet" type="text/css" href="./css/content.css" />
+	<link rel="stylesheet" type="text/css" href="./css/gallery.css" />
+	<link rel="stylesheet" type="text/css" href="./css/sticky.css" />
+	<link rel="stylesheet" type="text/css" href="./css/main.css" />
+
+	<!-- 
+            load fonts from the google fonts repository 
+        -->
+	<link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Manrope:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<!-- 1
+            embed a p5js sketch. 
+			in the p5js editor use file → share then 
+			copy the URL from the embed text field
+			and replace the URL below (imframe src).
+        -->
+
+	<div id="landing-title" class="landing">
+		<section>
+			<iframe src="https://editor.p5js.org/YuanLynnTai/present/CDaNCDeBr"></iframe>
+		</section>
+	</div>
+
+	<!-- 2
+            the main section.
+        -->
+	<div id="main" class="main">
+		
+	<section>
+		<div class="title content">
+			<h2>Exercise 3.</h2>
+			<h1>Virus</h1>
+		</div>
+
+		<div id="thoughts" class="content">
+			<h3>Thoughts</h3>
+			<p>
+				For this exercise, we decided to show how fast a virus can spread through our work. By moving the mouse, 1 ball will be created. As the mouse moves faster, the amount of balls created will increase even faster. This shows how fast a virus could spread, just like how humans are capable of spreading virus without knowing. 
+			</p>
+		</div>
+
+		<div id="issues" class="content">
+			<h3>Issues</h3>
+			<p>
+				Through our group feedback we realised that there was no indication for the theme of "Virus". There was no mouse hover graphic to represent the theme chosen as it was just dots.
+			</p>
+		</div>
+
+		<div id="achievements" class="content">
+			<h3>Achievements</h3>
+			<p>
+				We took away the importance of user interaction and concept introduction for the sketch, as it was crucial in playing the "understanding" of our sketch to users.
+			</p>
+		</div>
+	</section>
+
+	<section>
+		<div id="testing-images" class="content-image">
+			<img src="images/sketch.jpg" class="l" />
+		</div>
+	</section>
+
+	<section>
+		<div id="testing" class="content">
+			<h3>Testing</h3>
+			<p>
+				After applying the "Virus" graphic onto the mouse to show a strong message of the spreading of virus for our sketch. We conducted a user testing with another group of students.
+			</p>
+		</div>
+
+		<div id="feedback" class="content">
+			<h3>Feedback</h3>
+			<p>
+					User testings indicated that the beige background did not show a strong contrast for the moving dots and its colours. The beige background did not allow a strong contrast.
+			</p>
+		</div>
+	</section>
+
+	<section class="color-bg-1">
+		<div id="p5js-sketches" class="content">
+			<h3>p5js Sketches</h3>
+			<ul>
+				<li>
+					<a href="https://editor.p5js.org/YuanLynnTai/full/91VsRPP0M" target="_blank">Spawn Ball</a>
+					spawning a single ball when mouse hovers
+				</li>
+                <li>
+					<a href="https://editor.p5js.org/YuanLynnTai/full/vMV2Gkk2o" target="_blank">Virus Mouse</a>
+					creating a hover "virus"
+				</li>
+                <li>
+					<a href="https://editor.p5js.org/YuanLynnTai/full/6thvmbRxm" target="_blank">Random Movements</a>
+					experimenting random movement of ball
+				</li>
+				<li>
+					<a href="https://editor.p5js.org/YuanLynnTai/sketches/8IkRJfJjR" target="_blank">Spawn and Move</a>
+					spawning balls with random movements
+				</li>
+			</ul>
+		</div>
+	</section>		
+
+		<!-- 
+
+            add some images to support your content visually.
+            -->
+	<section>
+		<div class="gallery">
+			<figure><img src="./images/example-1.jpg" />
+				<figcaption>
+					<p>A blank background with a single cirus as the mouse hover.</p>
+				</figcaption>
+			</figure>
+			<figure><img src="./images/example-2.jpg" />
+				<figcaption>
+					<p>Green balls start to appear after mouse is hovered across screen</p>
+				</figcaption>
+			</figure>
+			<figure><img src="./images/example-3.jpg" />
+				<figcaption>
+					<p>When number of balls are above 50, colour changes to orange</p>
+				</figcaption>
+			</figure>
+			<figure><img src="./images/example-4.jpg" />
+				<figcaption>
+					<p>When number of balls are above 100, colour changes to red</p>
+				</figcaption>
+			</figure>
+
+		</div>
+	</section>
+	<!-- Some more project and Author(s) details -->
+	
+	<div class="footer">
+		<p>
+			A project by Yuan Lynn Tai, Lynn Tan, Veronn Tan and Joselin Piay
+			2020
+		</p>
+	</div>
+
+	<!-- and finally, the titles that stick to the sides of the window -->
+	<div id="sticky">
+		<h2 id="project-subject">Computation in Design</h2>
+		<h2 id="project-title">Virus</h2>
+	</div>
+</body>
+
+</html>
